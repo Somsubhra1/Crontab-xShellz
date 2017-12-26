@@ -1,0 +1,24 @@
+[
+ {
+ "placeholder":"Enter process (Type help to know more about the categories) (Example: add)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "category"
+ },
+ {
+ "placeholder":"Enter Cron job to be added to your shell (Example: */10 * * * * echo Hello)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": false,
+ "name": "cron"
+ },
+ {
+ "placeholder":"Install Crontab",
+ "format":"button",
+ "type": "submit",
+ "isMandatory": "true",
+ "name" : "submit",
+ "value": "Install Crontab"
+ }
+]
